@@ -374,7 +374,7 @@ class _PredictionPageState extends State<PredictionPage> {
     });
     double predictedYield = 0;
 
-    final apiUrl = 'http://127.0.0.1:8000/predict_yield';
+    const apiUrl = 'https://crop-yield-predictor-rb5g.onrender.com/predict_yield';
 
     try {
       final response = await http.post(
