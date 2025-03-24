@@ -5,6 +5,8 @@
 - Anticipate climate impact on harvests
 - Choose high-yield crops for their specific region
 - Improve profitability through data-driven decisions
+
+**Demo Video**: https://youtu.be/cFVReq8iUPw
 ## **Dataset Description**:
 
 **Source**: Crop Yield Prediction Dataset from Kaggle
@@ -31,3 +33,58 @@ Analysis Objectives:
 **Prediction endpoint**(POST): https://crop-yield-predictor-rb5g.onrender.com/predict/
 
 **Swagger endpoint**: https://crop-yield-predictor-rb5g.onrender.com/docs/
+
+## Installation and Setup
+
+### Prerequisites
+- Flutter SDK 3.0+ for the mobile application
+- Android Studio + emulator or physical android device
+
+### Setup
+1. Clone the repository
+   ```
+   git clone https://github.com/amuhirwa/linear_regression_model.git
+   ```
+### Flutter App Setup
+1. Navigate to the Flutter project directory
+   ```
+   cd ./linear_regression_model/summative/FluttterApp
+   ```
+
+2. Get Flutter dependencies
+   ```
+   flutter pub get
+   ```
+
+3. Run the app in development mode
+   ```
+   flutter run
+   ```
+   
+   - If using an emulator:
+     - Ensure Android/iOS emulator is running
+   
+   - If using a physical device:
+     - Connect your device via USB and enable USB debugging
+
+4. To build a release version
+   ```
+   flutter build apk  # For Android
+   flutter build ios  # For iOS
+   ```
+### Running API Locally
+1. Navigate to API directory
+  ```
+   cd ./linear_regression_model/summative/API
+   ```
+
+2. Install required Python packages
+   ```
+   pip install -r requirements.txt
+   ```
+
+3. Start the server with uvicorn
+   ```
+   uvicorn prediction:app --host 0.0.0.0 --port 8000
+   ```
+   The API will be available at http://localhost:8000
