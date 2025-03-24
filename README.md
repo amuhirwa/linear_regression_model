@@ -30,7 +30,7 @@ Analysis Objectives:
 
 
 ## **API**:
-**Prediction endpoint**(POST): https://crop-yield-predictor-rb5g.onrender.com/predict/
+**Prediction endpoint**(POST): https://crop-yield-predictor-rb5g.onrender.com/predict_yield/
 
 **Swagger endpoint**: https://crop-yield-predictor-rb5g.onrender.com/docs/
 
