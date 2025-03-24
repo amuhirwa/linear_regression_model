@@ -1,6 +1,6 @@
 {
-    "name": "Crop Yield Predictor",
-    "short_name": "YieldWise",
+    "name": "crop_yield_predictor",
+    "short_name": "crop_yield_predictor",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

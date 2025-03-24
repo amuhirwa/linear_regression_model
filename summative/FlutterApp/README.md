@@ -1,3 +1,3 @@
-# flutter_application_1
+# crop_yield_predictor
 
 A new Flutter project.
